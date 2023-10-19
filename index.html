@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GELOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+        
+    <nav id="hamnav">
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+    <img class="logogel" src="logo2.PNG">
+    <a class="fun-hover">FEATURED PRODUCTS, LATEST NEWS</a>
+
+    <div id="hamitems">
+      <a href="index.html">ABOUT</a>
+      <a href="index.html">OFFERINGS</a>
+      <a href="index.html">COMPANY VALUES</a>
+      <a href="index.html">CONTACT US</a>
+    </div>
+    </nav>
+     
+	</header>
+	<main>
+      <div class="slider-container">
+        <div class="menu">
+          <label for="slide-dot-1"></label>
+          <label for="slide-dot-2"></label>
+        </div>
+        <input id="slide-dot-1" type="radio" name="slides" checked>
+        <div class="slide slide-1"><p class="text1">IMPROVING OPERATIONS<br> THROUGH GELOS <br> PRODUCTS & SERVICES</p>
+        <a href="file:///C:/Users/srzhv/OneDrive/Desktop/881200667%20_SerhiiVashchenko_CI_ComplexWebdesign_SK_2of3/website/page2/index.html"><input type="button" class="b1" value="READ MORE"></a></div>
+        <input id="slide-dot-2" type="radio" name="slides">
+        <div class="slide slide-2"><p class="text2">SOLVING BUSINESS PROBLEMS</p>
+          <a href="file:///C:/Users/srzhv/OneDrive/Desktop/881200667%20_SerhiiVashchenko_CI_ComplexWebdesign_SK_2of3/website/page3/index.html"><input type="button" class="b2" value="KNOW MORE"></a></div>
+    </div>
+		<div class="c2">
+      <p class="text3">COMPANY OFFERINGS</p>
+      <button class="accordion">DIGITAL TRANSFORMATION</button>
+      <div class="panel">
+        <p class="cl2">
+        To help our clients leverage the state-of-art technologies, we provide a tailored approach to enable change in the digital space. Our prior works include developing mobile applications, website applications, and organisation software development, among other digital capabilities. To know more, contact us.
+        </p>
+      </div>
+      
+      <button class="accordion">CLOUD SERVICES</button>
+      <div class="panel">
+        <p class="cl2">Our Cloud programs include a range of services from full application development platforms to servers, storage, and virtual desktops. We offer the following:
+          1.	Software as a service (SaaS)<br>
+          2.	Platform as a service (PaaS)<br>
+          3.	Infrastructure as a service (IaaS).
+          </p>
+      </div>
+      
+      <button class="accordion">ARTIFICIAL INTELLIGENCE</button>
+      <div class="panel">
+        <p class="cl2">Artificial intelligence services at Gelos can help you drive smart evolution of your workflows, technology and the entire organisation. Our industry experts help you implement a data-first strategy, augment with third-party sources, and operationalise and accelerate AI integration across your enterprise to generate positive business growth.</p>
+      </div></div>
+		<div class="c3"><p class="text4">COMPANY VALUES</p>
+      <div class="container">
+        <div class="box1">INTEGRITY
+          <p class="info1">WE ARE COMMITTED TO OUR<br> VALUES AND PROTECT OUR<br> COMPANY AT AN ORGANIZATIONAL<br> LEVEL.</p>
+        </div>
+        <div class="box2">INCLUSIVITY
+          <p class="info2">WE STRONGLY BELIEVE IN DIVERSITY<br> AS THE CORE OF OUR GROWTH.<br> OUR POLICIES HOLD ZERO <br>TOLERANCE TOWARDS DISCRIMINATION.</p>
+        </div>
+        <div class="box3">INNOVATION
+          <p class="info3">INNOVATION IS ONE OF OUR CORE<br> VALUES. OUR CULTURE IMBIBES <br>CURIOSITY, TECHNOLOGICAL INGENUITY<br> AND ADAPTABILITY.</p>
+        </div>
+      </div>
+    </div>
+		<div class="c4">
+      <p class="text5">CONTACT US</p>
+      <p class="contactus">IMPROVING OPERATIONS<br> THROUGH GELOS <br> PRODUCTS & SERVICES</p>
+      <a class="btn7" href="file:///C:/Users/srzhv/OneDrive/Desktop/881200667%20_SerhiiVashchenko_CI_ComplexWebdesign_SK_2of3/website/page2/index.html"><input type="button" class="b7" value="READ MORE"></a>
+
+      </FORM>
+      <FORM class="feedback" action="mailto:srzhvshnk@gmail.com" method="post" enctype="text/plain">
+        <INPUT type="text" name="firstname" placeholder="NAME">
+        <BR>
+        <BR>
+        <INPUT type="email" name="mail" placeholder="E-MAIL ADDRESS">
+        <BR>
+        <BR>       
+          <TEXTAREA rows="3" cols="20" name="commentfield" placeholder=""></TEXTAREA>
+          <BR>
+          <BR>
+          <INPUT class="fd" TYPE="submit" value="SEND">
+      </FORM>
+    </div>
+  </main>
+	<footer>
+		<h2></h2>
+  </footer>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+</body>
+</html>
